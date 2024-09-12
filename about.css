@@ -4,33 +4,26 @@
     overflow:inherit;
 }
 body{
-    background-color: rgb(227, 233, 233);
+    background:linear-gradient(45deg,rgb(1, 98, 136),white,rgb(1, 98, 136));
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* styling header content */
 nav{
     
     color: rgba(105, 107, 109, 0.884);
-    margin-left: 40%;
+    margin-left: 38%;
     font-size:16px;
     
 }
 nav img{
-    margin-top: 8%;
+    margin-top: 12%;
     width: 150px;
     height: 30px;
     padding-left: 100px;
     padding-bottom: 20px;
 }
 
-
-
-/* section leftside content */
-.leftside{
-    height: 480px;
-    background-color: white;
-
-}
 
 /* section leftside content */
 
@@ -58,7 +51,7 @@ nav img{
 
 }
 #icons li{
-    padding: 1% .5% 0% 1%;
+    padding: 10px 5px 0px 10px;
     font-size: smaller;
     
 }
@@ -69,15 +62,14 @@ nav img{
 #lefticons{
     margin-left: 60%;
     color:rgb(41, 41, 216);
-    margin-top:.4% ;
+    margin-top:5px ;
 }
-
 #faq{
     color:rgb(41, 161, 216);
-    margin-top:.4% ;
+    margin-top:5px ;
 }
 #phone{
-    margin-top: .4%;
+    margin-top: 5px;
     color: rgb(41, 41, 216);
 
 }
@@ -91,142 +83,35 @@ nav img{
     margin-top: .5%;
 }
 
-#simple{
-    background-image: url(1707937506608.jfif);
-    height: 440px;
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
+/* styling firstdiv */
+.firstdiv {
+    height: 400px;
+    max-width: 100%px;
+    background-image: url(about\ us.JPG);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
-#simp-prag{
-    padding-top: 150px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#putton{
-    background-color: rgb(243, 98, 46);
-    border-radius: 10px;
-    font-size: 10px;
-    width: 100px;
-    margin-left: 45%;
-    padding: .4%;
-    margin-top: 1%;
-    font-weight:bolder;
-}
-
-
-/* styling the medsection  */
-.midsection{
-    height: 840px;
-    padding-top: 50px;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* ul styling */
-#a{
-    list-style: none;
-    display: flex;
-    text-align: center;
-    color: rgb(141, 141, 137);
-}
-#a li{
-    margin-top: 3%;
-    margin-left: 16%;
-}
-#midfirspragraph{
-    margin-left: 42%;
-    font-weight:bold;
-    font-size: x-large;
-    font-family: fantasy;
-}
-#a .material-icons{
-    font-size: 50px;
-    color:rgb(42, 107, 228);
-}
-#a1{
-    color: black;
-}
-/* grilimg */
-.midsection img{
-    padding-top: 8%;
-}
-
-#midsectiondiv{
-    margin-left: 40%;
-    margin-top: -30%;
-    color: rgb(141, 141, 137);
-}
-#midsectiondiv p{
-    margin: 3%;
-}
-#midp1{
-    color: black;
-    font-size: large;
-    font-weight: bold;
-    /* margin-bottom: 10px; */
-}
-#midp2{
-    height: 150;
-    width: 400px;
-    font-size: medium;
-}
-
-/* styling why lend frim section  */
-.why-lendFrim{
-    /* background-color: rgba(17, 69, 165, 0.726);  */
-    background:linear-gradient(45deg,rgb(2, 30, 122),rgb(22, 160, 214));
-    height: 300px;
+.firstdiv p{
+    margin-left: 44%;
+    padding-top: 10%;
     color: white;
-}
-.why-lendFrim .material-icons{
-    font-size: 50px;
-    color:aqua;
-}
-.why-lendFrim ul{
-    list-style: none;
-    display: flex;
-    text-align: center;
-    padding-bottom: 50px;
-}
-.why-lendFrim ul li {
-        margin: 3% 0px 0px 10%;
-    }
-#why-lendFrimpragraph{
-    padding-top: 5%;
-    margin-left: 43%;
+    font-size: 40px;
     font-weight: bold;
-    font-size: large;
-    color: white;
 }
-
 /* styling middiv */
 .middiv{
-    height: 200px;
-    background:linear-gradient(45deg,rgb(1, 98, 136),rgb(46, 96, 235));
-    color: white;
-    padding-bottom: 50px;
-    
-}
-.middiv p{
-    margin-top: -5%;
-    margin-left: 40%;
-}
-#img{
-    display: inline;
-    width: 100px;
-    height: 50px;
-    margin-left: 30%;
     margin-top: 5%;
+    margin-left: 40%;
+    color: rgb(141, 140, 137);;
 }
-#p2{
-    margin-top: 1%;
-    background-color: rgb(22, 160, 214);
-    width: 100px;
-    border-radius: 5px;
-    text-align: center;
+#middiv2{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#middivp1{
+    font-size: large;
+    font-weight: bold;
+    color: black;
 }
 
 /* styling the last div */
@@ -236,11 +121,11 @@ nav img{
     padding-top: 2%;
 }
 .lastdiv .p1{
-    margin-left: 43%;
+    margin-left: 40%;
     font-size: larger;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 2%;
+    margin-top: 20px;
 }
 .lastdiv ul{
     display: flex;
@@ -249,10 +134,10 @@ nav img{
     margin-left: 5%;
 }
 .lastdiv ul li{
-    margin-top: 4%;
-    margin-left: 7%;
+    margin-top: 30px;
+    margin-left: 5%;
     background:linear-gradient(45deg,rgb(1, 98, 136),rgb(141, 140, 137));
-    padding: 10px;
+    padding: 7px;
     border-radius: 10px;
 }
 #span{
@@ -262,16 +147,17 @@ nav img{
 #lip{
     color: white;
 }
-#divp{
-    color: white;
-}
 #star .material-icons{
     color: gold;
     font-size: medium;
 }
+#divp{
+    color: white;
+}
 .lastdiv .div{
+    margin-right: 5%;
     margin-top: 3%;
-    margin-left: 1%;
+    margin-left: 5%;
     text-align: center;
 }
 .div .p{
@@ -279,11 +165,10 @@ nav img{
     border-radius: 10px;
     width: 150px;
     padding: 5px;
-    margin-left: 43%;
+    margin-left: 40%;
     margin-top: 2%;
     color: white;
 }
-
 
 /* styling the footer */
 footer{
@@ -312,7 +197,7 @@ footer ul{
     
 }
 footer ul li{
-    margin-left: 8%;
+    margin-left: 6%;
     
 }
 footer ul li a{
@@ -343,10 +228,3 @@ footer ul li p{
     color: rgb(141, 140, 137);
     
 }
-
-
-
-
-
-
-
